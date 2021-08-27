@@ -140,21 +140,21 @@
                 columns: [
                     {
                         data: null,
-                        name: 'Tasks.name',
+                        name: 'tasks.name',
                         render: function ( data, type, row, meta ) {
                             return data.name;
                         }
                     },
                     {
                         data: null,
-                        name: 'Tasks.description',
+                        name: 'tasks.description',
                         render: function ( data, type, row, meta ) {
                             return data.description;
                         }
                     },
                     {
                         data: null,
-                        name: 'Tasks.url',
+                        name: 'tasks.url',
                         render: function ( data, type, row, meta ) {
                             let res = ``;
 
@@ -165,7 +165,7 @@
                     },
                     {
                         data: null,
-                        name: 'Tasks.id',
+                        name: 'tasks.id',
                         className: 'text-center',
                         render: function ( data, type, row, meta ) {
                             let res = ``;
